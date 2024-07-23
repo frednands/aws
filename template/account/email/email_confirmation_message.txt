@@ -1,0 +1,8 @@
+{% load account %}{% user_display user as user_display %}{% autoescape off %}{% blocktrans %}Hello from {{ site_name }}!
+
+To confirm your email address, please click the link below:
+
+{{ activate_url }}
+
+Thank you for using {{ site_name }}!
+{% endblocktrans %}{% endautoescape %}

@@ -1,0 +1,73 @@
+#header{
+    background-color:#06BBCC;
+}
+.module caption{
+    background-color: #06BBCC;
+}
+
+div .breadcrumbs{
+    background-color: #06BBCC;
+} 
+.errornote{
+    background: #F0FBFC;
+
+}
+
+
+#id_username{
+    border-radius :40px;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #52565b;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0px;
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+#id_password{
+    border-radius:0px !important;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #52565b;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0px;
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+#id_username:focus {
+    color: #52565b;
+    background-color: #fff;
+    border-color: #83dde6;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(6,187,204,0.25)
+}
+#id_password:focus {
+    color: #52565b;
+    background-color: #fff;
+    border-color: #83dde6;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(6,187,204,0.25)
+}
+
+#user-tools strong{
+    padding: 2px 5px;
+}
+.button,
+input[type="submit"],
+input[type="button"],
+.submit-row input,
+a.button {
+  background: #06BBCC;
+}

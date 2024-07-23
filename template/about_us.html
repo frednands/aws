@@ -1,0 +1,112 @@
+
+{% extends 'app.html' %}
+
+{% load static %}
+
+
+{% block title %}
+    about Us
+{% endblock title %}
+
+{% block content %}
+ 
+    <div class=" mx-auto text-center">
+        <img src="{% static 'img/about.jpg' %}" alt="" srcset="" width="100%">
+    </div>
+      
+       
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title bg-white text-center text-primary px-3 py-1">our mission</h6>
+                
+                </div>
+                <div class="row g-4">
+    
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp " data-wow-delay="0.1s">
+                        <div class="service-item text-center pt-3 shadow">
+                            <div class="p-4">
+                                <i class="fas fa-globe-africa text-primary mb-4" style="font-size: 48px;"></i>
+                                <h5 class="mb-3">Environmental conservation: </h5>
+                                <p>Aim to undertaking initiatives to protect the environment, promote sustainable practice
+                                    and combatic change</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item text-center pt-3 shadow">
+                            <div class="p-4">
+                                <i class="fas fa-balance-scale text-primary mb-4" style="font-size: 48px;"></i>
+                                <h5 class="mb-3">Leadership development </h5>
+                                <p>Cultivate leadership qualities and civil engagement among youth, encouraging them to
+                                    actively participate in community development and take on leadership rules</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item text-center pt-3 shadow">
+                            <div class="p-4">
+                                <i class='fas fa-lightbulb  text-primary' style='font-size:48px;'></i>
+                                <h5 class="mb-3">Technology and innovation </h5>
+                                <p>Aims to equip youth with technological skills and promote innovation, preparing them in
+                                    evolving global economy</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item text-center pt-3 shadow">
+                            <div class="p-4">
+                                <i class="fas fa-handshake text-primary mb-4 font-4" style='font-size:48px;'></i>
+                                <h5 class="mb-3">Human Rights </h5>
+                                <p>Advocating for and defending human rights, promoting gender equality, and working to
+                                    eliminate discrimination . </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item text-center pt-3 shadow">
+                            <div class="p-4">
+    
+                                <i class='fas fa-users text-primary' style='font-size:48px;'></i>
+                                <h5 class="mb-3">Community engagement</h5>
+                                <p>Encourage active participation in community development projects, fostering a sense of
+                                    responsibility and connection among the young individuals</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item text-center pt-3 shadow">
+                            <div class="p-4">
+                                <i class="fas fa-book text-primary mb-4  " style='font-size:48px;'></i>
+                                <h5 class="mb-3">Education</h5>
+                                <p>Promoting access of quality education, including vacational training and academic support
+                                    to empower youth with knowledge and tools for personal and professional growth</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item text-center pt-3 shadow">
+                            <div class="p-4">
+                                <i class="fas fa-hand-holding-usd text-primary mb-4  " style='font-size:48px;'></i>
+                                <h5 class="mb-3">Community development</h5>
+                                <p>Enhance the skills of young individuals through training programs, workshops and
+                                    education initiative to make them more employable and capable contributers to societies
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    <!-- Service Start -->
+   
+    <!-- Service End -->
+
+
+    <!-- About Start -->
+ 
+
+    <!-- Testimonial Start -->
+    {% include 'partials/_footer.html' %}
+    {% endblock content %}

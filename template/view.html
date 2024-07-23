@@ -1,0 +1,49 @@
+{% extends 'app.html' %}
+
+{% load static %}
+
+{% block title %}
+    View
+{% endblock title %}
+
+{% block content %}
+
+    <div >
+        <div class="my-2 mx-5 ">
+            <a href="{% url 'home' %}" ><i class="bi bi-arrow-left"></i> Home</a>
+        </div>
+    <div class="modal-dialog" role="document">
+        <div class="modal-content col-12">
+           
+            <div class="modal-body">
+                <strong class="text-center"> TANZANIA YOUTH CENTRE ORGANIZATION (TAYCO)</strong> <br>
+                 <br><br>
+                 <div >
+                    <div class="" role="document">
+                      <div class="">
+                        
+                        <div class="modal-body col-12">
+                          <div class="border-bottom pb-4">
+                            <img src="{{ project.gt_image }} " alt="" srcset="" style="width: 25rem;">
+                          </div>
+                          <h1>{{project.project_name}}</h1>
+                          <div class="mt-1 py-3">
+                            {{project.desription}}
+                          </div>
+                          <div class="post-meta">
+                            <i class="bi bi-calendar"></i>
+                            {{ project.created_at | date:'Y M d' }}
+                        </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+
+            
+        </div>
+    </div>
+</div>
+{% include 'partials/_footer.html' %}
+    <!-- Footer Start -->
+    {% endblock content %}
